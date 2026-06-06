@@ -33,10 +33,11 @@
   },
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "build": "expo export --platform web",
+    "reset-project": "node ./scripts/reset-project.js",
     "lint": "expo lint"
   },
   "private": true
